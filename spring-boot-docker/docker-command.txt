@@ -1,0 +1,3 @@
+docker build --tag spring-boot:1.0 C:\\Ajit\\Java_Projects\\springboot\\spring-boot\\spring-boot-docker
+
+docker run  --detach --publish 8080:8080 --tag spring-boot:1.0
